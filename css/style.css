@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
+    font-size: 80px;
+    /* border: 5px solid palevioletred; */
+}
+
+.morpion {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid rgb(255, 0, 191);
+    min-width: 50vh;
+    height: 50vh;
+}
+
+.case {
+    border: 5px solid rgb(255, 0, 191);
+    width: calc(1/3 * 100%);
+    height: calc(1/3 * 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 191);
+}
+
+body {
+    background-image: url("../sapce2.jpg");
+height: 100vh;
+}
